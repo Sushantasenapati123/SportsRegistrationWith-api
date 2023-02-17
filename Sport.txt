@@ -1,0 +1,132 @@
+create Table Club_Master
+(club_Id int identity,
+club_name varchar(45)
+)
+insert into Club_Master
+values('Lion Club')
+
+insert into Club_Master
+values('Tiger Club')
+
+create Table sports_Master
+(sport_Id int identity,
+sprot_name varchar(45),
+club_id int,
+fees decimal(8,2)
+)
+insert into sports_Master
+values('cricket L',1,2000.00)
+insert into sports_Master
+values('Football L',1,3000.00)
+insert into sports_Master
+values('cricket T',2,2000.00)
+insert into sports_Master
+values('Football T',2,3000.00)
+
+USE [chikun]
+GO
+
+/****** Object:  Table [dbo].[Registration_Details]    Script Date: 04-02-2023 14:28:27 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Registration_Details](
+	[Registration_Id] [int] IDENTITY(1,1) NOT NULL,
+	[Applicant_name] [varchar](45) NULL,
+	[Email] [varchar](45) NOT NULL,
+	[Mobile_no] [varchar](45) NULL,
+	[Gender] [varchar](10) NULL,
+	[dob] [date] NULL,
+	[image_path] [varchar](30) NULL,
+	[club_id] [int] NULL,
+	[sport_Id] [int] NULL
+) ON [PRIMARY]
+GO
+
+
+
+
+
+
+
+
+alter proc spots
+(
+
+@Registration_Id int=0,
+@Applicant_name varchar(30)=null,
+@Email varchar(30)=null,
+@Mobile_no varchar(30)=null,
+@Gender varchar(30)=null,
+@dob date=null,
+@image_path varchar(30)=null,
+@sport_Id int=0,
+@club_id int=0,
+
+@mode varchar(10),
+@PMSGOUT varchar(100) output
+
+)
+as
+begin
+  if(@mode='IU')
+begin
+   if(@Registration_Id=0)
+       begin
+	      
+			begin
+			   insert into Registration_Details( Applicant_name, Email, Mobile_no, Gender, dob, image_path, club_id, sport_Id)
+			   values(@Applicant_name,@Email,@Mobile_no,@Gender,@dob,@image_path,@club_id,@sport_Id)
+			   set @PMSGOUT='1';
+		    end
+	   end
+   else
+	   begin
+	 
+		   begin
+			   update Registration_Details set Applicant_name=@Applicant_name,Email=@Email,Mobile_no=@Mobile_no,Gender=@Gender,dob=@dob,image_path=@image_path,club_id=@club_id,sport_Id=@sport_Id where Registration_Id=@Registration_Id
+			   set @PMSGOUT='2';
+		   end
+		end
+end
+else if(@mode='BindClub')
+   begin
+   select club_Id, club_name  from Club_Master 
+   end
+   else if(@mode='BindClub1')
+   begin
+    select sport_Id, sprot_name  from sports_Master where club_id=1
+   end
+else if(@mode='BindSpotsByClubIdL')
+   begin
+   select sport_Id, sprot_name  from sports_Master where club_id=1
+   end
+ else if(@mode='BindSpotsByClubIdT')
+   begin
+   select sport_Id, sprot_name  from sports_Master where club_id=2
+   end
+else if(@mode='Getall')
+   begin
+   SELECT        Registration_Details.club_id, Registration_Details.sport_Id, Club_Master.club_name, sports_Master.sprot_name, Registration_Details.Applicant_name, Registration_Details.Email, 
+                         Registration_Details.Mobile_no, Registration_Details.Gender, Registration_Details.dob, Registration_Details.image_path, Registration_Details.Registration_Id, Club_Master.club_Id AS Expr1, 
+                         sports_Master.sport_Id AS Expr2
+FROM            Registration_Details INNER JOIN
+                         Club_Master ON Registration_Details.club_id = Club_Master.club_Id INNER JOIN
+                         sports_Master ON Registration_Details.sport_Id = sports_Master.sport_Id
+   end
+
+else if(@mode='GetById')
+   begin
+   SELECT        Registration_Details.club_id, Registration_Details.sport_Id, Club_Master.club_name, sports_Master.sprot_name, Registration_Details.Applicant_name, Registration_Details.Email, 
+                         Registration_Details.Mobile_no, Registration_Details.Gender, Registration_Details.dob, Registration_Details.image_path,convert(varchar, Registration_Details.dob, 23) as dob, Registration_Details.Registration_Id, Club_Master.club_Id AS Expr1, 
+                         sports_Master.sport_Id AS Expr2
+FROM            Registration_Details INNER JOIN
+                         Club_Master ON Registration_Details.club_id = Club_Master.club_Id INNER JOIN
+                         sports_Master ON Registration_Details.sport_Id = sports_Master.sport_Id where Registration_Id=@Registration_Id
+   end
+
+end
+

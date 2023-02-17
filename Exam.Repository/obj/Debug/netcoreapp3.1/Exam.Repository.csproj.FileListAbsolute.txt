@@ -1,0 +1,45 @@
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.deps.json
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.AssemblyReference.cache
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfoInputs.cache
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfo.cs
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CoreCompileInputs.cache
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.dll
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CopyComplete
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.deps.json
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.pdb
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.dll
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.dll
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.pdb
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.pdb
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.AssemblyReference.cache
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfoInputs.cache
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfo.cs
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CoreCompileInputs.cache
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CopyComplete
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.deps.json
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Repository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.dll
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Domain.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\bin\Debug\netcoreapp3.1\Exam.Irepository.pdb
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.AssemblyReference.cache
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfoInputs.cache
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.AssemblyInfo.cs
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CoreCompileInputs.cache
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.csproj.CopyComplete
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.dll
+C:\Users\sushanta.senapati\Desktop\web Api\SportsApi\FstMonthExam\Exam.Repository\obj\Debug\netcoreapp3.1\Exam.Repository.pdb
